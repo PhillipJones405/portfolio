@@ -138,7 +138,7 @@
         <p class="language-plaintext highlighter-rouge"> 
             <code class="language-plaintext highlighter-rouge">&nbsp;&nbsp;&nbsp;</code>
         </p>
-        <p class="lead">&nbsp;&nbsp;&nbsp;One of my favorite film genres is Folk Horror.  
+        <p class="lead" style="padding: 20px;">&nbsp;&nbsp;&nbsp;One of my favorite film genres is Folk Horror.  
             In recent years there has been a resurgence in films falling into this category.  
             A few of my favorite recent picks are Hereditary, Midsommar, and Saint Maud, from the 
             A24 Entertainment company.  I have talked to dozens of people about these films and 
@@ -165,11 +165,11 @@
     <div class="row featurette">
       <!--<div class="col-md-7 order-md-2">-->
         <h2 class="featurette-heading"><span class="text-muted"></span></h2>
-        <p class="lead">
+        <p class="lead" style="padding: 20px;">
             Critics loved the movies, but audiences did not rate them so highly.  
             I took to Twitter to get some information on the overall sentiment of these movies from the userbase.
         </p>
-        <p class="lead">
+        <p class="lead" style="padding: 20px;">
             Scraping Twitter turned out to be no easy feat.  Many python libraries dedicated to the task seem to be 
             defunct as Twitter routinely changes their APIs and frontend to limit scraping.  I was able to find a work 
             around the in the library called Scweet.  This library uses a Selenium backend to accomplish 
@@ -194,7 +194,7 @@
     <div class="row featurette">
       <div class="col-md-7">
         
-        <p class="lead">With many machine learning applications, great care must be taken to clean and 
+        <p class="lead" style="padding: 20px;">With many machine learning applications, great care must be taken to clean and 
             pre-process the data.  Cleansing and data preparation considerations must be made with the overall
              architecture of your machine learning process in mind.  I decided for this analysis to utilize 
              the Vader sentiment analysis tool.  Vader (Valence Aware Dictionary and sEntiment Reasoner) is a
@@ -203,7 +203,7 @@
               analysis.  Since this tool utilizes both punctuation and capitalization is inputs into its sentiment 
               scoring algorithm, I opted to leave these features in my data set.</p>
 
-              <p class="lead">Taking the sum of the area under each of these curves provided an overall sentiment score.  
+              <p class="lead" style="padding: 20px;">Taking the sum of the area under each of these curves provided an overall sentiment score.  
                   As we can see, the overall sentiment for Saint Maud and Midsommar are positive.  
                   Hereditary has a much lower overall score.  This movie was quite terrifying, and I suspect a 
                   lot of the tweets may have a very negative sentiment due to that.  </p>
@@ -218,7 +218,7 @@
     <div class="row featurette">
         <!--<div class="col-md-7 order-md-2">-->
           <h2 class="featurette-heading"><span class="text-muted"></span></h2>
-          <p class="lead">
+          <p class="lead" style="padding: 20px;">
               In the future, I will expand upon this analysis by acquiring more data for the sentiment analysis.  I would
               also like to better understand how the Vader model performs on niche text topics like horror specifically.
             While a comment such as "I was terrified!" may score a negative sentiment, this could actually be meant 

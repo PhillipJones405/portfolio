@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Phillip's' Portfolio</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand">Phillip Jones</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/PhillipJones405">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/phillip-jones-405/">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/>
+          <image href="./me1.jpg" height="100%" width="100%"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <!--
+            <h1>Phillip Jones</h1>
+            <p>Try to keep up!</p>
+            -->
+            <p><a class="btn btn-lg btn-primary" href="./about.html">About Me</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/>
+          <image href="./pexels-markus-spiske-2004161.jpg" height="100%" width="100%"/></svg></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <!--
+            <h1>Fascinating Projects</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+          -->
+            <p><a class="btn btn-lg btn-primary" href="./projects.html">Projects</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/>
+          <image href="./pexels-drift-shutterbug-2085998.jpg" height="100%" width="100%"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <!--
+            <h1>Resume</h1>
+            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            -->
+            <p><a class="btn btn-lg btn-primary" href="./Resume.html">Resume</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+  
+
+    <!-- START THE FEATURETTES -->
+    <h2 class="featurette-heading" style="padding: 20px;">Wolly the ChatBot<span class="text-muted"></span></h2>
+    <hr class="featurette-divider">
+<div style="padding: 20px;">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <p class="language-plaintext highlighter-rouge"> 
+            <code class="language-plaintext highlighter-rouge">&nbsp;&nbsp;&nbsp;</code>
+        </p>
+        <p class="lead" style="padding: 20px;">&nbsp;&nbsp;&nbsp;I developed a chatbot for the insurance company Woligo, leveraging a Retrieval-Augmented Generation (RAG) model and the Django REST framework for deployment. The chatbot's knowledge base is built from information scraped from Woligo's website, ensuring that it provides accurate and relevant responses to user inquiries. This chatbot enhances customer interaction and support, streamlining the process of accessing information about Woligo's services.
+        </p>
+        <p class="lead" style="padding: 20px;">
+        To enhance the Woligo chatbot's knowledge base, I developed a comprehensive pipeline that crawls Woligo's website, chunks and organizes the content, and creates new embeddings. This process begins with web scraping to extract relevant information from various sections of the site.
+      </p>
+        </p>
+      </div>
+      <div class="col-md-5">
+        <p class="lead">
+            
+        </p>
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#FFFFFF"/><text x="50%" y="50%" fill="#FFFFFF" dy=".3em">500x500</text>
+            <image href="./woligo/chatbot-greeting.svg" height="100%" width="100%"/></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-5">
+            <p class="lead">
+            </p>
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#FFFFFF"/><text x="50%" y="50%" fill="#FFFFFF" dy=".3em">500x500</text>
+                <image href="./woligo/1.webp.webp" height="100%" width="100%"/></svg>
+    
+          </div>
+        <div class="col-md-7">
+          <p class="language-plaintext highlighter-rouge"> 
+              <code class="language-plaintext highlighter-rouge"></code>
+          </p>
+          <p class="lead" style="padding: 20px;"></p>
+
+            <p class="language-plaintext highlighter-rouge"> 
+              <code class="language-plaintext highlighter-rouge">Chunking Content</p></code>
+            Chunking involves breaking down the large blocks of text and data extracted from the website into smaller, manageable pieces, or "chunks." This step is crucial for ensuring that the content is appropriately organized and can be processed efficiently by the chatbot. By dividing the information into chunks, we can maintain the context and relevance of the content, making it easier for the chatbot to retrieve and deliver precise responses to user queries.
+            For the Woligo chatbot, I implemented semantic chunking, a strategy that breaks down content based on meaning and context rather than arbitrary lengths. This approach ensures each piece of content retains its context and nuances, enabling the chatbot to provide more accurate and meaningful responses.
+<p></p>
+Semantic chunking also improves search and retrieval efficiency. With coherent chunks, the chatbot can quickly match user queries with relevant content, resulting in faster and more efficient query processing. Users benefit from more precise and contextually relevant answers, leading to a better overall experience.
+<p></p>
+Additionally, this method adapts easily to changes in content, maintaining the integrity and reliability of the chatbot’s knowledge base. By using semantic chunking, the Woligo chatbot delivers high-quality, contextually accurate responses, significantly enhancing its effectiveness and user satisfaction.
+
+            
+          </p>
+  
+          </p>
+        </div>
+        
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <p class="language-plaintext highlighter-rouge"> 
+              <code class="language-plaintext highlighter-rouge"></code>
+          </p>
+          <p class="lead" style="padding: 20px;">
+            <p class="language-plaintext highlighter-rouge"> 
+              <code class="language-plaintext highlighter-rouge">Creating Embeddings</p></code>
+              Embeddings are a fundamental concept in machine learning, particularly in natural language processing (NLP) and other fields that deal with high-dimensional data. They represent words, phrases, or even entire documents as dense vectors in a continuous vector space, capturing semantic meanings and relationships between them. Unlike traditional one-hot encoding, where each word is represented as a sparse vector with high dimensionality, embeddings map words into a lower-dimensional space while preserving meaningful syntactic and semantic information. This transformation allows machine learning models to process and understand the context of the data more effectively.
+              <p></p>
+              The process of creating embeddings involves training a model on a large corpus of text to learn the vector representations. Popular algorithms for generating word embeddings include Word2Vec, GloVe, and fastText. These algorithms use different techniques to capture the contextual relationships between words. For instance, Word2Vec uses a neural network to predict surrounding words given a target word (or vice versa), learning vectors that position semantically similar words close to each other in the vector space. The resulting embeddings encode various linguistic properties, enabling models to perform tasks such as similarity measurement, clustering, and classification with greater accuracy and efficiency.
+              <p></p>
+              Embeddings have significantly advanced the capabilities of machine learning models in numerous applications. In NLP, they improve the performance of tasks like sentiment analysis, machine translation, and information retrieval by providing a more nuanced understanding of text. Beyond NLP, embeddings are also used in recommendation systems, where items like movies or products are represented as vectors to capture user preferences and item similarities. This versatile technique enhances model performance by leveraging the inherent structure and relationships within the data, making embeddings a powerful tool in the machine learning toolkit. . By generating embeddings, the chatbot can effectively interpret and respond to user questions based on the contextual similarities between the query and the stored content. The embeddings are created using advanced natural language processing techniques, which allow the chatbot to understand and process the nuances of human language more accurately.
+              
+              
+              
+            
+          </p>
+  
+          </p>
+        </div>
+        <div class="col-md-5">
+          <p class="lead">
+              
+          </p>
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#FFFFFF"/><text x="50%" y="50%" fill="#FFFFFF" dy=".3em">500x500</text>
+              <image href="./woligo/2.webp" height="100%" width="100%"/></svg>
+  
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+          <div class="col-md-5">
+              
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#FFFFFF"/><text x="50%" y="50%" fill="#FFFFFF" dy=".3em">500x500</text>
+                  <image href="./woligo/3.webp" height="100%" width="100%"/></svg>
+      
+            </div>
+          <div class="col-md-7">
+            <p class="language-plaintext highlighter-rouge"> 
+                <code class="language-plaintext highlighter-rouge">&nbsp;&nbsp;&nbsp;</code>
+            </p>
+            <p class="lead" style="padding: 20px;">&nbsp;&nbsp;&nbsp;
+                    
+            <p class="language-plaintext highlighter-rouge"> 
+              <code class="language-plaintext highlighter-rouge">Retrieval and Generation</p></code>
+              The first phase in the RAG architecture involves retrieving relevant documents or pieces of information from a large corpus. When a user inputs a query, the query is converted into an embedding vector using a pre-trained model. This vector representation captures the semantic meaning of the query. The system then compares this query embedding with embeddings of the documents in the corpus using similarity metrics like cosine similarity. The top-k most similar documents are retrieved based on their similarity scores, providing contextually relevant information to the input query.
+              <p></p>
+              Once the relevant documents are retrieved, they are combined with the original query and fed into a generative model, such as GPT-3. The generative model uses this enriched context to produce a more accurate and informative response. The embeddings ensure that the retrieved documents closely match the semantic intent of the query, thereby enhancing the generative model's ability to generate coherent and contextually appropriate text.
+                  </p>
+            
+            </p>
+    
+            </p>
+          </div>
+          
+        </div>
+    
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <p class="language-plaintext highlighter-rouge"> 
+                <code class="language-plaintext highlighter-rouge">&nbsp;&nbsp;&nbsp;</code>
+            </p>
+            <p class="lead" style="padding: 20px;">&nbsp;&nbsp;&nbsp;
+              <p class="language-plaintext highlighter-rouge"> 
+                <code class="language-plaintext highlighter-rouge">Automated Testing Script</p></code>
+              To maintain the integrity and reliability of the chatbot, I also created an automated testing script. This script compares the newly scraped content against a set of accepted answers by measuring the cosine similarity between the new model's responses and the established correct answers. Cosine similarity is a metric used to measure how similar two vectors (in this case, text embeddings) are to each other. By automating this testing process, we ensure that the chatbot continuously delivers accurate and high-quality information, adapting seamlessly to any updates or changes on the Woligo website.
+              <p></p>
+              The development of the Woligo chatbot and its underlying pipeline showcases the power of combining advanced machine learning techniques with robust engineering practices. By leveraging semantic chunking, embeddings, and the RAG architecture, the chatbot delivers highly accurate and contextually relevant responses, enhancing the user experience and efficiency of customer interactions. This project not only highlights my ability to implement cutting-edge technologies but also underscores the importance of meticulous data processing and continuous improvement in delivering innovative solutions.
+              <p></p>
+              Check out Wolly the ChatBot in the Wild at Woligo's Website: <a href="https://wapi.woligonow.com/home/letsgo" target="_blank">https://wapi.woligonow.com/home/letsgo</a>
+            </p>
+    
+            </p>
+          </div>
+          <div class="col-md-5">
+            <p class="lead">
+                
+            </p>
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#FFFFFF"/><text x="50%" y="50%" fill="#FFFFFF" dy=".3em">500x500</text>
+                <image href="./woligo/Screenshot_20240708_202305_Teams.jpg" height="100%" width="100%"/></svg>
+    
+          </div>
+        </div>
+  
+        <hr class="featurette-divider">
+    <!-- /END THE FEATURETTES -->
+  </div>
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p> Contact: &middot; <a href="mailto:phil405@gmail.com">Email</a></p>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>

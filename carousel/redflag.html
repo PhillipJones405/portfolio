@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Phillip's' Portfolio</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand">Phillip Jones</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/PhillipJones405">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/phillip-jones-405/">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/>
+          <image href="./me1.jpg" height="100%" width="100%"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <!--
+            <h1>Phillip Jones</h1>
+            <p>Try to keep up!</p>
+            -->
+            <p><a class="btn btn-lg btn-primary" href="./about.html">About Me</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/>
+          <image href="./pexels-markus-spiske-2004161.jpg" height="100%" width="100%"/></svg></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <!--
+            <h1>Fascinating Projects</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+          -->
+            <p><a class="btn btn-lg btn-primary" href="./projects.html">Projects</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"/>
+          <image href="./pexels-drift-shutterbug-2085998.jpg" height="100%" width="100%"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <!--
+            <h1>Resume</h1>
+            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            -->
+            <p><a class="btn btn-lg btn-primary" href="./Resume.html">Resume</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+  
+
+    <!-- START THE FEATURETTES -->
+    <h2 class="featurette-heading" style="padding: 20px;">The Red Flag Model<span class="text-muted"></span></h2>
+    <hr class="featurette-divider">
+<div  class="lead" style="padding: 20px;">
+    <div class="row featurette">
+      <div class="col-md-7">
+        
+        <p>This project was challenging all the way around. First off, fraud cases are inherently imbalanced. This can add a layer of complexity to training that you don't always have with other data sets. Secondly, this project required cutting through a lot of red tape. One challenge of working at a holding company is that I work with a lot of different organizations under our umbrella. Most of these organizations have varying security protocols and often have access to very different software and applications.
+        <p></p>
+          The team that I worked with on this project utilized SAS and DataRobot. Learning how to use SAS effectively wasn't too bad, although it is not very fun to look at. Ironically, one of the largest challenges with this project was just getting access to all of the tools and data sources I needed. This was great practice at learning how to navigate a locked down corporate environment!
+          <p></p>
+          Ultimately, the Red Flag Model was a valuable endeavor, allowing me to develop a method to highlight claims that might warrant closer investigation. This experience not only honed my technical skills in handling imbalanced datasets and utilizing sophisticated tools but also improved my ability to adapt and thrive in a complex corporate setting. The successful deployment of this model has the potential to save significant resources by identifying potentially fraudulent claims early, demonstrating the impactful application of data science in real-world scenarios.
+      
+        </p>
+      </div>
+      <div class="col-md-5">
+        <p class="lead">
+            
+        </p>
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#FFFFFF"/><text x="50%" y="50%" fill="#FFFFFF" dy=".3em">500x500</text>
+            <image href="./redflag/1.webp" height="100%" width="100%"/></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-5">
+            <p class="lead">
+            </p>
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#FFFFFF"/><text x="50%" y="50%" fill="#FFFFFF" dy=".3em">500x500</text>
+                <image href="./redflag/Screenshot_20240708_203119_Teams.jpg" height="100%" width="100%"/></svg>
+    
+          </div>
+        <div class="col-md-7">
+          <p class="language-plaintext highlighter-rouge"> 
+              <code class="language-plaintext highlighter-rouge"></code>
+          </p>
+          <p class="lead" style="padding: 20px;"></p>
+
+            <p class="language-plaintext highlighter-rouge"> 
+              <code class="language-plaintext highlighter-rouge">SAS</p></code>
+              Once I navigated through all the red tape, I was ready to access the data. The team uses SAS, so I wrote programs to interface with the database and retrieve claims data. During this phase, I also performed extensive feature engineering. Collaborating with our claims experts, I engineered features and categorical variables that encoded important business logic. Fortunately, the company's investigations unit had been tracking claims for a long time, providing us with valuable data on the types of claims they typically flagged for closer examination. This allowed us to perform supervised learning.
+          </p>
+  
+          </p>
+        </div>
+        
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <p class="language-plaintext highlighter-rouge"> 
+              <code class="language-plaintext highlighter-rouge"></code>
+          </p>
+          <p class="lead" style="padding: 20px;">
+            <p class="language-plaintext highlighter-rouge"> 
+              <code class="language-plaintext highlighter-rouge">Rebalancing</p></code>
+              When addressing class imbalance in machine learning, several popular balancing techniques are available, each with its advantages and potential drawbacks. Techniques like Synthetic Minority Over-sampling Technique (SMOTE) and Adaptive Synthetic Sampling (ADASYN) are commonly used to generate synthetic samples for the minority class, enhancing the model's ability to learn from underrepresented data without merely duplicating existing samples. These methods help create a more balanced dataset by interpolating between existing minority instances, thereby maintaining diversity in the training data. However, synthetic sampling can sometimes introduce noise or unrealistic samples if not carefully managed. These techniques are pretty neat, but they have been bashed pretty heavily in the last few years. They might work in some cases, but investigate thoroughly beforehand!
+<p></p>
+On the other hand, techniques like Random Over-sampling simply duplicate minority class samples to increase their representation, while Random Under-sampling reduces the number of majority class samples to balance the dataset. While over-sampling can lead to overfitting due to repeated samples, under-sampling may result in the loss of valuable information by discarding potentially useful majority class data. Despite these trade-offs, under-sampling can be particularly effective in certain scenarios where the dataset is large enough, and the loss of some majority class samples does not significantly impact the model's performance.
+<p></p>
+In the Red Flag Model project, I chose to use majority class under-sampling due to its simplicity and effectiveness in dealing with the highly imbalanced nature of fraud detection data. Given the extensive dataset available, reducing the majority class size did not result in a significant loss of information. Instead, it allowed the model to focus more on the minority class, which is critical for detecting fraudulent claims. By strategically under-sampling the majority class, I was able to create a more balanced training set that enhanced the model's ability to identify patterns indicative of fraud, leading to more accurate and reliable predictions.
+          </p>
+  
+          </p>
+        </div>
+        <div class="col-md-5">
+          <p class="lead">
+              
+          </p>
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#FFFFFF"/><text x="50%" y="50%" fill="#FFFFFF" dy=".3em">500x500</text>
+              <image href="./redflag/2.webp" height="100%" width="100%"/></svg>
+  
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+          <div class="col-md-5">
+              
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#FFFFFF"/><text x="50%" y="50%" fill="#FFFFFF" dy=".3em">500x500</text>
+                  <image href="./redflag/3.webp" height="100%" width="100%"/></svg>
+      
+            </div>
+          <div class="col-md-7">
+            <p class="language-plaintext highlighter-rouge"> 
+                <code class="language-plaintext highlighter-rouge">&nbsp;&nbsp;&nbsp;</code>
+            </p>
+            <p class="lead" style="padding: 20px;">&nbsp;&nbsp;&nbsp;
+                    
+            <p class="language-plaintext highlighter-rouge"> 
+              <code class="language-plaintext highlighter-rouge">Training</p></code>
+              The next step was model training. In DataRobot, I set up complex AutoML pipelines. After engineering several features and selecting the most relevant ones, I created preliminary models and conducted data exploration to identify the best features. I used tests such as the Variance Inflation Factor (VIF) to assist in feature selection.
+<p></p>
+VIF is a measure used to detect multicollinearity among the predictor variables in a regression model. Multicollinearity occurs when two or more predictor variables are highly correlated, which can distort the true relationship between each predictor and the outcome variable. A high VIF indicates that a predictor has a strong linear relationship with other predictors, suggesting redundancy. By calculating the VIF for each predictor, we can identify and remove highly collinear features, thus improving the model's stability and interpretability.
+<p></p>
+Once the best features were selected, I initiated an AutoML job. To ensure robust evaluation, I created a holdout set and ran the model using k-fold cross-validation. K-fold cross-validation is a technique used to assess the performance and generalizability of a model. In this method, the dataset is divided into k equally sized folds or subsets. The model is trained on k-1 folds and tested on the remaining fold. This process is repeated k times, with each fold serving as the test set once. The results from each iteration are averaged to provide a comprehensive measure of the model's performance. This technique helps to reduce the variability in performance metrics and provides a more accurate estimate of how the model will perform on unseen data. I've also saved a hold-out set to test the final model on.
+                  </p>
+            
+            </p>
+    
+            </p>
+          </div>
+          
+        </div>
+    
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <p class="language-plaintext highlighter-rouge"> 
+                <code class="language-plaintext highlighter-rouge">&nbsp;&nbsp;&nbsp;</code>
+            </p>
+            <p class="lead" style="padding: 20px;">&nbsp;&nbsp;&nbsp;
+              <p class="language-plaintext highlighter-rouge"> 
+                <code class="language-plaintext highlighter-rouge">Models</p></code>
+                The model diagram illustrates a comprehensive data processing and machine learning pipeline designed to predict outcomes effectively. Starting from the raw data, the pipeline handles various types of variables, including text, numeric, geospatial, and categorical variables. Each type of data undergoes specific preprocessing steps to ensure it is properly formatted and cleansed for model training.
+                <p></p>
+                Text variables are processed using converters for text mining, followed by an auto-tuned word N-Gram text modeler that uses token occurrences to transform text data into useful features. These features are then combined or "bound" to integrate them into the main dataset.
+                <p></p>
+                Numeric variables undergo imputation to handle missing values, followed by standardization to normalize the data. Geospatial location variables are converted using a geospatial location converter, ensuring they are in a suitable format for analysis. Categorical variables are encoded using ordinal encoding and one-hot encoding techniques to convert them into numerical formats that the model can interpret.
+                <p></p>
+                After preprocessing, the data is subjected to partial principal components analysis (PCA) and K-means clustering to reduce dimensionality and identify underlying patterns. Finally, the processed data is fed into an eXtreme Gradient Boosted Trees (XGBoost) classifier, which is fine-tuned with early stopping and unsupervised learning techniques to optimize performance. The model then generates predictions based on the refined and well-processed data, providing accurate and reliable outcomes. This pipeline demonstrates a sophisticated approach to handling diverse data types and leveraging advanced machine learning algorithms for predictive modeling.
+                 The final model was actually an ensemble of several of these such models with varying architectures. The outputs of each of the models were run through a GLM to blend them together.
+            </p>
+    
+            </p>
+          </div>
+          <div class="col-md-5">
+            <p class="lead">
+                
+            </p>
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#FFFFFF"/><text x="50%" y="50%" fill="#FFFFFF" dy=".3em">500x500</text>
+                <image href="./redflag/Screenshot_20240708_101433_Teams.jpg" height="100%" width="100%"/></svg>
+    
+          </div>
+        </div>
+        <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-5">
+            
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#FFFFFF"/><text x="50%" y="50%" fill="#FFFFFF" dy=".3em">500x500</text>
+                <image href="./redflag/3.webp" height="100%" width="100%"/></svg>
+    
+          </div>
+        <div class="col-md-7">
+          <p class="language-plaintext highlighter-rouge"> 
+              <code class="language-plaintext highlighter-rouge">&nbsp;&nbsp;&nbsp;</code>
+          </p>
+          <p class="lead" style="padding: 20px;">&nbsp;&nbsp;&nbsp;
+                  
+          <p class="language-plaintext highlighter-rouge"> 
+            <code class="language-plaintext highlighter-rouge">Metrics</p></code>
+            Selecting the right metrics depends on the specific goals and context of the problem. For instance, in fraud detection, if the cost of missing a fraudulent claim is high, recall might be prioritized. Conversely, if the cost of false positives is high, precision might be more important. Often, a combination of metrics like the F1 score and AUC-PR is used to balance these trade-offs.
+<p></p>
+Sometimes I'll focus on different metrics during training and testing than when I'm discussing with stakeholders. Often times, I'll choose metrics that are easy to understand such as RMSE as it is in the same units as the target variable. Metrics like log-loss can be good in training, but are difficult to communicate to shareholders. I personally don't like logloss because the value itself doesn't tell you anything without having some idea about the class proportion. For instance, a logloss of 0.1 might be decent in one case, but if the the class proprotion is 2%, it isn't any better than guessing randomly.
+<p></p>
+In the Red Flag Model project, using metrics such as precision, recall, and the F1 score was essential to ensure the model effectively identified fraudulent claims without overwhelming the system with false positives. By carefully selecting and monitoring these metrics, we were able to optimize the model's performance and ensure it met the specific needs of the fraud detection task.</p>
+          
+          </p>
+  
+          </p>
+        </div>
+        
+      </div>
+  
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <p class="language-plaintext highlighter-rouge"> 
+              <code class="language-plaintext highlighter-rouge">&nbsp;&nbsp;&nbsp;</code>
+          </p>
+          <p class="lead" style="padding: 20px;">&nbsp;&nbsp;&nbsp;
+            <p class="language-plaintext highlighter-rouge"> 
+              <code class="language-plaintext highlighter-rouge">Results</p></code>
+              The model developed for the Red Flag project demonstrates exceptional performance in detecting potentially fraudulent insurance claims. The image showcases key evaluation metrics and visualizations that highlight the model's effectiveness. The ROC curve, with an impressive area under the curve, indicates a high true positive rate with a low false positive rate, underscoring the model's capability to accurately distinguish between fraudulent and non-fraudulent claims. The prediction distribution plot further validates the model's proficiency in classifying events with a clear separation between probabilities.
+              <p></p>
+              The confusion matrix reveals that the model correctly identified a substantial number of true positives (1358) and true negatives (5371), with relatively few false positives (35) and false negatives (110). The high values for the F1 score (0.9493), true positive rate (0.9251), and positive predictive value (0.9749) demonstrate a well-balanced model that excels in both precision and recall. These metrics indicate the model's robustness and reliability in practical applications, providing valuable insights for the investigation team.
+              <p></p>
+              <p class="language-plaintext highlighter-rouge"> 
+                <code class="language-plaintext highlighter-rouge">Closing Thoughts</p></code>
+              <p></p>
+              The development of the Red Flag Model has been a challenging yet rewarding endeavor. By overcoming the hurdles of working with imbalanced datasets and navigating complex corporate environments, I was able to create a highly effective model that significantly enhances our ability to detect fraudulent insurance claims. The advanced techniques employed, from feature engineering to model evaluation, have resulted in a robust solution that provides tangible benefits to the organization. This project not only showcases the power of machine learning in real-world applications but also highlights the importance of perseverance and adaptability in achieving success.
+          </p>
+  
+          </p>
+        </div>
+        <div class="col-md-5">
+          <p class="lead">
+              
+          </p>
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#FFFFFF"/><text x="50%" y="50%" fill="#FFFFFF" dy=".3em">500x500</text>
+              <image href="./redflag/Screenshot_20240708_203059_Teams.jpg" height="100%" width="100%"/></svg>
+  
+        </div>
+      </div>
+  
+        <hr class="featurette-divider">
+    <!-- /END THE FEATURETTES -->
+  </div>
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p> Contact: &middot; <a href="mailto:phil405@gmail.com">Email</a></p>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
